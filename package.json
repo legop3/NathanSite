@@ -1,0 +1,23 @@
+{
+  "name": "nathansite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legop3/NathanSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legop3/NathanSite/issues"
+  },
+  "homepage": "https://github.com/legop3/NathanSite#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.4"
+  }
+}
