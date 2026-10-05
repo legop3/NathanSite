@@ -1,0 +1,6 @@
+services:
+  nathansite:
+    image: ghcr.io/legop3/nathansite:latest
+    ports:
+      - "3746:3746"
+    restart: unless-stopped
